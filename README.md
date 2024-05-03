@@ -46,16 +46,20 @@ Make sure you have Python and pip installed on your system. Then, install the pr
 pip install -r requirements.txt
 ```
 
-5. **Create a .env file:**
+5. **Setting up Gmail authentication:**
+
+    This project uses Gmail for sending emails. You will need to generate an app password for your Gmail account. Follow the instructions [here](https://support.google.com/accounts/answer/185833?hl=en) to generate an app password.
+
+6. **Create a .env file:**
 
 Create a file named `.env` in the project directory and add the following variables:
 
 ```plaintext
 MAIL=your_email
-PASSWORD=your_password
+PASSWORD=your_app_password
 ```
 
-6. **Run the project:**
+7. **Run the project:**
 
 Execute the project using the following command:
 
