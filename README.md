@@ -11,7 +11,17 @@ Late Pay Notify is a tool that automates the process of notifying customers abou
 
 Late Pay Notify simplifies the process of managing overdue payments, providing an efficient and straightforward solution for notifying customers about their outstanding financial obligations.
 
+## Table of Contents
 - [Installation](#Installation)
+- [Clone the repository](#clone-the-repository)
+- [Navigate to the project directory](#navigate-to-the-project-directory)
+- [Create and activate a virtual environment](#create-and-activate-a-virtual-environment)
+    - [Linux or macOS](#linux-or-macos)
+    - [Windows](#windows)
+- [Install dependencies](#install-dependencies)
+- [Setting up Gmail authentication](#setting-up-gmail-authentication)
+- [Create a .env file](#create-a-env-file)
+- [Run the project](#run-the-project)
 
 ## Installation
 1. **Clone this project:**
