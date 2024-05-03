@@ -1,7 +1,15 @@
 # Late Pay Notify
 
-Brief description or summary of your project.
-Table of Contents
+Late Pay Notify is a tool that automates the process of notifying customers about overdue payments by sending email reminders.
+
+## Key Features
+1. **Notification Automation:** Automatically identifies overdue payments and sends email reminders to customers.
+
+## How It Works
+1. **Identification of Overdue Payments:** The system regularly checks the status of payments and identifies those that are overdue based on predefined criteria.
+2. **Sending Email Reminders:** Once overdue payments are identified, the system automatically sends email reminders to customers, encouraging them to settle their payment status.
+
+Late Pay Notify simplifies the process of managing overdue payments, providing an efficient and straightforward solution for notifying customers about their outstanding financial obligations.
 
 - [Installation](#Installation)
 
