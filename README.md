@@ -11,60 +11,48 @@ Late Pay Notify is a tool that automates the process of notifying customers abou
 
 Late Pay Notify simplifies the process of managing overdue payments, providing an efficient and straightforward solution for notifying customers about their outstanding financial obligations.
 
-## Table of Contents
-- [Installation](#Installation)
-- [Clone the repository](#clone-the-repository)
-- [Navigate to the project directory](#navigate-to-the-project-directory)
-- [Create and activate a virtual environment](#create-and-activate-a-virtual-environment)
-    - [Linux or macOS](#linux-or-macos)
-    - [Windows](#windows)
-- [Install dependencies](#install-dependencies)
-- [Setting up Gmail authentication](#setting-up-gmail-authentication)
-- [Create a .env file](#create-a-env-file)
-- [Run the project](#run-the-project)
-
 ## Installation
-1. **Clone this project:**
+### 1. **Clone this project:**
 
-```bash
+ ```bash
 git clone https://github.com/esperanca-leonardo/late-pay-notify.git
 ```
 
-2. **Navigate to the project directory:**
+### 2. **Navigate to the project directory:**
 
 ```bash
 cd late-pay-notify
 ```
 
-3. **Create and activate a virtual environment:**
+### 3. **Create and activate a virtual environment:**
 
-    First, install the virtualenv library:
+First, install the virtualenv library:
 
-    ```bash
-    pip install virtualenv
-    ```
+```bash
+pip install virtualenv
+```
 
-    Then, create a virtual environment named `venv`:
+Then, create a virtual environment named `venv`:
 
-    ```bash
-    virtualenv venv
-    ```
+```bash
+virtualenv venv
+```
 
-    3.1. **Activate the virtual environment:**
+- #### 3.1. **Activate the virtual environment:**
     
-    - Linux or macOS:
+    - ##### Linux or macOS:
     
         ```bash
         source venv/bin/activate
         ```
     
-    - Windows:
+    - ##### Windows:
     
         ```bash
         venv\Scripts\activate
         ```
 
-5. **Install dependencies:**
+### 4. **Install dependencies:**
 
 Make sure you have Python and pip installed on your system. Then, install the project dependencies using pip:
 
@@ -72,11 +60,11 @@ Make sure you have Python and pip installed on your system. Then, install the pr
 pip install -r requirements.txt
 ```
 
-5. **Setting up Gmail authentication:**
+### 5. **Setting up Gmail authentication:**
 
-    This project uses Gmail for sending emails. You will need to generate an app password for your Gmail account. Follow the instructions [here](https://support.google.com/accounts/answer/185833?hl=en) to generate an app password.
+This project uses Gmail for sending emails. You will need to generate an app password for your Gmail account. Follow the instructions [here](https://support.google.com/accounts/answer/185833?hl=en) to generate an app password.
 
-6. **Create a .env file:**
+### 6. **Create a .env file:**
 
 Create a file named `.env` in the project directory and add the following variables:
 
@@ -85,7 +73,7 @@ MAIL=your_email
 PASSWORD=your_app_password
 ```
 
-7. **Run the project:**
+### 7. **Run the project:**
 
 Execute the project using the following command:
 
