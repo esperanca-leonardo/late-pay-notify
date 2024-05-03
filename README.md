@@ -4,10 +4,6 @@ Brief description or summary of your project.
 Table of Contents
 
 - [Installation](#Installation)
-- How to Use
-- Examples
-- Contributing
-- License
 
 ## Installation
 1. **Clone this project:**
@@ -22,7 +18,27 @@ git clone https://github.com/esperanca-leonardo/late-pay-notify.git
 cd late-pay-notify
 ```
 
-3. **Install dependencies:**
+3. **Create and activate a virtual environment:**
+
+    First, install the virtualenv library:
+
+    ```bash
+    pip install virtualenv
+    ```
+
+    Then, create a virtual environment named `venv`:
+
+    ```bash
+    virtualenv venv
+    ```
+
+    Activate the virtual environment:
+
+    ```bash
+    source venv/bin/activate
+    ```
+
+5. **Install dependencies:**
 
 Make sure you have Python and pip installed on your system. Then, install the project dependencies using pip:
 
@@ -30,7 +46,7 @@ Make sure you have Python and pip installed on your system. Then, install the pr
 pip install -r requirements.txt
 ```
 
-4. **Create a .env file:**
+5. **Create a .env file:**
 
 Create a file named `.env` in the project directory and add the following variables:
 
@@ -39,7 +55,7 @@ MAIL=your_email
 PASSWORD=your_password
 ```
 
-5. **Run the project:**
+6. **Run the project:**
 
 Execute the project using the following command:
 
