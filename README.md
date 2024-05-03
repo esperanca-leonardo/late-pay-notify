@@ -1,17 +1,23 @@
-# Late Pay Notify
+# 🕒 Late Pay Notify
 
 Late Pay Notify is a tool that automates the process of notifying customers about overdue payments by sending email reminders.
 
-## Key Features
+## 📑 Table of Contents
+- [Key Features](#key-features)
+- [How It Works](#how-it-works)
+- [Installation](#installation)
+- [Observations](#observations)
+
+## 🚀 Key Features
 1. **Notification Automation:** Automatically identifies overdue payments and sends email reminders to customers.
 
-## How It Works
+## 💡 How It Works
 1. **Identification of Overdue Payments:** The system regularly checks the status of payments and identifies those that are overdue based on predefined criteria.
 2. **Sending Email Reminders:** Once overdue payments are identified, the system automatically sends email reminders to customers, encouraging them to settle their payment status.
 
 Late Pay Notify simplifies the process of managing overdue payments, providing an efficient and straightforward solution for notifying customers about their outstanding financial obligations.
 
-## Installation
+## 🛠️ Installation
 ### 1. **Clone this project:**
 
  ```bash
@@ -80,7 +86,8 @@ Execute the project using the following command:
 ```bash
 python main.py
 ```
-## Observations
+
+## 📝 Observations
 As the project currently stands, it will not send emails to any real customers because all customer emails in the database are fake. Therefore, in order to test the application, it will send emails to the sender's email address.
 
 
