@@ -6,6 +6,16 @@ Late Pay Notify is a tool that automates the process of notifying customers abou
 - [Key Features](#-key-features)
 - [How It Works](#-how-it-works)
 - [Installation](#%EF%B8%8F-installation)
+  - [Clone this project](#1-clone-this-project)
+  - [Navigate to the project directory](#2-navigate-to-the-project-directory)
+  - [Create and activate a virtual environment](#3-create-and-activate-a-virtual-environment)
+    - [Activate the virtual environment](#31-activate-the-virtual-environment)
+      - [Linux or macOS](#linux-or-macos)
+      - [Windows](#windows)
+  - [Install dependencies](#4-install-dependencies)
+  - [Setting up Gmail authentication](#5-setting-up-gmail-authentication)
+  - [Create a .env file](#6-create-a-env-file)
+  - [Run the project](#7-run-the-project)
 - [Observations](#-observations)
 
 ## 🚀 Key Features
