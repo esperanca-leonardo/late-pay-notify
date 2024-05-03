@@ -32,11 +32,19 @@ cd late-pay-notify
     virtualenv venv
     ```
 
-    Activate the virtual environment:
-
-    ```bash
-    source venv/bin/activate
-    ```
+    3.1. **Activate the virtual environment:**
+    
+    - Linux or macOS:
+    
+        ```bash
+        source venv/bin/activate
+        ```
+    
+    - Windows:
+    
+        ```bash
+        venv\Scripts\activate
+        ```
 
 5. **Install dependencies:**
 
