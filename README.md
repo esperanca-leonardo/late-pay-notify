@@ -13,13 +13,13 @@ Table of Contents
 1. **Clone this project:**
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/esperanca-leonardo/late-pay-notify.git
 ```
 
 2. **Navigate to the project directory:**
 
 ```bash
-cd your-repository
+cd late-pay-notify
 ```
 
 3. **Install dependencies:**
@@ -44,5 +44,5 @@ PASSWORD=your_password
 Execute the project using the following command:
 
 ```bash
-python your_script.py
+python main.py
 ```
