@@ -9,9 +9,13 @@ Late Pay Notify is a tool that automates the process of notifying customers abou
   - [Clone this project](#1-clone-this-project)
   - [Navigate to the project directory](#2-navigate-to-the-project-directory)
   - [Create and activate a virtual environment](#3-create-and-activate-a-virtual-environment)
-    - [Activate the virtual environment](#31-activate-the-virtual-environment)
+    - [First, install the virtualenv library](#31-first-install-the-virtualenv-library)
+    - [Then, create a virtual environment named venv](#32-then-create-a-virtual-environment-named-venv)
       - [Linux or macOS](#linux-or-macos)
-      - [Windows](#windows)
+      - [Windows](#windows) 
+    - [Activate the virtual environment](#33-activate-the-virtual-environment)
+      - [Linux or macOS](#linux-or-macos-1)
+      - [Windows](#windows-1)
   - [Install dependencies](#4-install-dependencies)
   - [Setting up Gmail authentication](#5-setting-up-gmail-authentication)
   - [Create a .env file](#6-create-a-env-file)
@@ -42,30 +46,33 @@ cd late-pay-notify
 
 ### 3. **Create and activate a virtual environment:**
 
-First, install the virtualenv library:
+- #### 3.1. First, install the virtualenv library:
+    ```bash
+    pip install virtualenv
+    ```
 
-```bash
-pip install virtualenv
-```
+- #### 3.2. Then, create a virtual environment named `venv`:
 
-Then, create a virtual environment named `venv`:
+  - ##### Linux or macOS:
+      ```bash
+      virtualenv venv
+      ```
+  
+  - ##### Windows:
+      ```bash
+      python -m virtualenv venv
+      ```
 
-```bash
-virtualenv venv
-```
-
-- #### 3.1. **Activate the virtual environment:**
+- #### 3.3. **Activate the virtual environment:**
     
     - ##### Linux or macOS:
-    
         ```bash
         source venv/bin/activate
         ```
     
     - ##### Windows:
-    
         ```bash
-        venv\Scripts\activate
+        .\venv\Scripts\activate.bat
         ```
 
 ### 4. **Install dependencies:**
