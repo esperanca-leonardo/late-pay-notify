@@ -104,7 +104,7 @@ Execute the project using the following command:
 python main.py
 ```
 
-## 📝 Observations
+## 📌 Observations
 As the project currently stands, it will not send emails to any real customers because all customer emails in the database are fake. Therefore, in order to test the application, it will send emails to the sender's email address.
 
 
