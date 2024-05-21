@@ -6,6 +6,7 @@ Late Pay Notify is a tool that automates the process of notifying customers abou
 - [Key Features](#-key-features)
 - [How It Works](#-how-it-works)
 - [Tools and Technologies Used](#-tools-and-technologies-used)
+- [Prerequisites](#-prerequisites)
 - [Installation Instructions](#-installation-instructions)
   - [Clone this project](#1-clone-this-project)
   - [Navigate to the project directory](#2-navigate-to-the-project-directory)
@@ -45,6 +46,12 @@ Late Pay Notify is a tool that automates the process of notifying customers abou
 - [**datetime:**](https://docs.python.org/3/library/datetime.html) A module for working with dates and times.
 - [**dotenv:**](https://pypi.org/project/python-dotenv/#getting-started) A library for loading environment variables from .env files.
 
+## 📋 Prerequisites
+Before running the application, make sure you have the following prerequisites installed:
+
+- [**git:**](https://git-scm.com/) Widely-used distributed version control system.
+- [**python:**](https://www.python.org/) A powerful, general-purpose programming language.
+- [**pip:**](https://pip.pypa.io/en/stable/) Package manager for installing and managing Python libraries.
 
 ## 📝 Installation Instructions
 ### 1. Clone this project
