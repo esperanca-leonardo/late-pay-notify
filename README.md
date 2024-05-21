@@ -42,7 +42,7 @@ Late Pay Notify is a tool that automates the process of notifying customers abou
 - email.message: A module for creating and manipulating email messages.
 - [**os:**](https://docs.python.org/3/library/os.html) A module for interacting with the operating system.
 - [**datetime:**](https://docs.python.org/3/library/datetime.html) A module for working with dates and times.
-- dotenv: A library for loading environment variables from .env files.
+- [**dotenv:**](https://pypi.org/project/python-dotenv/#getting-started) A library for loading environment variables from .env files.
 
 
 ## 📝 Installation Instructions
