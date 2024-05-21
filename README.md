@@ -34,6 +34,17 @@ Late Pay Notify is a tool that automates the process of notifying customers abou
 4. **Email Sending:** The script sends the composed email to the respective clients using the SMTP protocol and a Gmail account configured with provided credentials.
 5. **Email Notification:** After sending each email, a confirmation message is printed to the console.
 
+## 💻 Resources Used
+- [**python:**](https://www.python.org/) A versatile and widely-used programming language known for its simplicity and readability. It's used to develop the automation.
+- [**pandas:**](https://pandas.pydata.org/) Employed for efficient data manipulation, enabling the automation to handle product data from an Excel file within the Python environment.
+- [**excel:**](https://support.microsoft.com/en-us/excel) Product data is stored in an Excel file format, widely-used and accessible for tabular data storage.
+- [**smtplib:**](https://docs.python.org/3/library/smtplib.html) A module for sending emails via SMTP.
+- email.message: A module for creating and manipulating email messages.
+- [**os:**](https://docs.python.org/3/library/os.html) A module for interacting with the operating system.
+- datetime: A module for working with dates and times.
+- dotenv: A library for loading environment variables from .env files.
+
+
 ## 📝 Installation Instructions
 ### 1. Clone this project
 
