@@ -26,10 +26,11 @@ Late Pay Notify is a tool that automates the process of notifying customers abou
 - **Notification Automation:** Automatically identifies overdue payments and sends email reminders to customers.
 
 ## 💡 How It Works
-- **Identification of Overdue Payments:** The system regularly checks the status of payments and identifies those that are overdue based on predefined criteria.
-- **Sending Email Reminders:** Once overdue payments are identified, the system automatically sends email reminders to customers, encouraging them to settle their payment status.
-
-Late Pay Notify simplifies the process of managing overdue payments, providing an efficient and straightforward solution for notifying customers about their outstanding financial obligations.
+1. **Data Loading:** The script loads data from an Excel file named `data.xlsx` using the pandas library.
+2. **Data Processing:** It processes the loaded data, converting the `Previsão Pagamento` column to datetime format and filtering payments that are overdue.
+3. **Email Composition:** For each client with overdue payments, an email message is composed using their purchase details (ID, Name, Value, Due Date) and a predefined message template.
+4. **Email Sending:** The script sends the composed email to the respective clients using the SMTP protocol and a Gmail account configured with provided credentials.
+5. **Email Notification:** After sending each email, a confirmation message is printed to the console.
 
 ## 📝 Installation Instructions
 ### 1. Clone this project
