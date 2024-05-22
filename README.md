@@ -37,14 +37,14 @@ Late Pay Notify is a tool that automates the process of notifying customers abou
 5. **Email Notification:** After sending each email, a confirmation message is printed to the console.
 
 ## 🔧 Tools and Technologies Used
-- [**python:**](https://www.python.org/) A versatile and widely-used programming language known for its simplicity and readability. It's used to develop the automation.
-- [**pandas:**](https://pandas.pydata.org/) Employed for efficient data manipulation, enabling the automation to handle product data from an Excel file within the Python environment.
-- [**excel:**](https://support.microsoft.com/en-us/excel) Product data is stored in an Excel file format, widely-used and accessible for tabular data storage.
-- [**smtplib:**](https://docs.python.org/3/library/smtplib.html) A module for sending emails via SMTP.
-- [**email.message:**](https://docs.python.org/3/library/email.examples.html) A module for creating and manipulating email messages.
-- [**os:**](https://docs.python.org/3/library/os.html) A module for interacting with the operating system.
-- [**datetime:**](https://docs.python.org/3/library/datetime.html) A module for working with dates and times.
-- [**dotenv:**](https://pypi.org/project/python-dotenv/#getting-started) A library for loading environment variables from .env files.
+- [**Python:**](https://www.python.org/) A versatile and widely-used programming language known for its simplicity and readability. It's used to develop the automation.
+- [**Pandas:**](https://pandas.pydata.org/) Employed for efficient data manipulation, enabling the automation to handle product data from an Excel file within the Python environment.
+- [**Excel:**](https://support.microsoft.com/en-us/excel) Product data is stored in an Excel file format, widely-used and accessible for tabular data storage.
+- [**Smtplib:**](https://docs.python.org/3/library/smtplib.html) A module for sending emails via SMTP.
+- [**Email.message:**](https://docs.python.org/3/library/email.examples.html) A module for creating and manipulating email messages.
+- [**Os:**](https://docs.python.org/3/library/os.html) A module for interacting with the operating system.
+- [**Datetime:**](https://docs.python.org/3/library/datetime.html) A module for working with dates and times.
+- [**Dotenv:**](https://pypi.org/project/python-dotenv/#getting-started) A library for loading environment variables from .env files.
 
 ## 📋 Prerequisites
 Before running the application, make sure you have the following prerequisites installed:
