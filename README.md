@@ -49,9 +49,9 @@ Late Pay Notify is a tool that automates the process of notifying customers abou
 ## 📋 Prerequisites
 Before running the application, make sure you have the following prerequisites installed:
 
-- [**git:**](https://git-scm.com/) Widely-used distributed version control system.
-- [**python:**](https://www.python.org/) A powerful, general-purpose programming language.
-- [**pip:**](https://pip.pypa.io/en/stable/) Package manager for installing and managing Python libraries.
+- [**Git:**](https://git-scm.com/) Widely-used distributed version control system.
+- [**Python:**](https://www.python.org/) A powerful, general-purpose programming language.
+- [**Pip:**](https://pip.pypa.io/en/stable/) Package manager for installing and managing Python libraries.
 
 ## 📝 Installation Instructions
 ### 1. Clone this project
